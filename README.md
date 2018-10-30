@@ -1,6 +1,7 @@
 # QAnetEstimator
  a implementation of google QAnet,  a tensorflow estimator version,  have very good proved performance
  
+ 
 ##overview
  A Tensorflow implementation of Google's [QANet](https://openreview.net/pdf?id=B14TlG-RW).
  thanks [nlplearn](https://github.com/NLPLearn/QANet) a lot, some implementation details came from their work.
