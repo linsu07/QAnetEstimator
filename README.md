@@ -1,8 +1,8 @@
 # QAnetEstimator
  a implementation of google QAnet,  a tensorflow estimator version,  have very good proved performance
  
- 
-##overview
+ ## overview
+
  A Tensorflow implementation of Google's [QANet](https://openreview.net/pdf?id=B14TlG-RW).
  thanks [nlplearn](https://github.com/NLPLearn/QANet) a lot, some implementation details came from their work.
  but overall, this is a whole new version using estimator-api, dataset-api and layers-api. these can make code more concise and clear
@@ -22,8 +22,8 @@
    
 ## Result
 The dataset used for this task is [Stanford Question Answering Dataset](https://rajpurkar.github.io/SQuAD-explorer/)
-I did not use it directly, but copy my network to nlplearn's qanet, you can see this on [my fork version](https://github.com/linsu07/QANet)
-and get result below
+I did not use it directly, but copy my network to nlplearn's qanet, you can see the replacement in [my fork version](https://github.com/linsu07/QANet)
+，and the comparison of result is shown below
 
     nlplearn's em 
    ![ulplearn em](./nlplearn1.jpg)
