@@ -21,8 +21,8 @@
    
 ## Result
 The dataset used for this task is [Stanford Question Answering Dataset](https://rajpurkar.github.io/SQuAD-explorer/)
-I did not use it directly, but copy my network to nlplearn's qanet, you can see this on [my fork version](https://github.com/linsu07/QANet)
-and get result below
+I did not use it directly, but copy my network to nlplearn's qanet, you can see the replacement in [my fork version](https://github.com/linsu07/QANet)
+，and the comparison of result is shown below
 
     nlplearn's em 
    ![ulplearn em](./nlplearn1.jpg)
