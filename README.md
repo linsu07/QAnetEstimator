@@ -1,12 +1,11 @@
 # QAnetEstimator
- a implementation of google QAnet,  a tensorflow estimator version,  have very good proved performance
- 
+ QAnetEstimator is an implementation of Google's QANet using TensorFlow's estimator API. It has been proven to have excellent performance.
  
 ##overview
- A Tensorflow implementation of Google's [QANet](https://openreview.net/pdf?id=B14TlG-RW).
- thanks [nlplearn](https://github.com/NLPLearn/QANet) a lot, some implementation details came from their work.
- but overall, this is a whole new version using estimator-api, dataset-api and layers-api. these can make code more concise and clear
- and I've done extra processing on padding to ensure that the padding data doesn't pollute the normal input data in the neural network. I've got higher F1 and EM under the same suite parameter than  [nlplearn](https://github.com/NLPLearn/QANet)'s version
+ QAnetEstimator is a TensorFlow implementation of Google's [QANet](https://openreview.net/pdf?id=B14TlG-RW), inspired by the work done by [nlplearn](https://github.com/NLPLearn/QANet) . While some implementation details were taken from their work, this version is a complete rewrite using TensorFlow's estimator API, dataset API, and layers API. These APIs make the code more concise and clear.
+ 
+ Furthermore, additional processing has been done on padding to ensure that the padding data does not affect the normal input data in the neural network. This has resulted in higher F1 and EM scores compared to nlplearn's version.
+ 
  
 ## Requirements
   * Python>=3.5
